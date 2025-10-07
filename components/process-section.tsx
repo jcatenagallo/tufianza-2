@@ -20,7 +20,7 @@ const steps = [
 
 export function ProcessSection() {
   return (
-    <section className="bg-gradient-to-br from-blue-50 to-orange-50 px-6 py-20 md:py-28">
+    <section id="proceso" className="bg-gradient-to-br from-blue-50 to-orange-50 px-6 py-20 md:py-28">
       <div className="mx-auto max-w-6xl">
         <div className="mb-16 text-center">
           <h2 className="text-balance mb-4 text-4xl font-bold tracking-tight text-foreground md:text-5xl">

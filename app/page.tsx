@@ -1,3 +1,4 @@
+import { Header } from "@/components/header"
 import { HeroSection } from "@/components/hero-section"
 import { ValuePropositions } from "@/components/value-propositions"
 import { ProcessSection } from "@/components/process-section"
@@ -8,14 +9,17 @@ import { Footer } from "@/components/footer"
 
 export default function Home() {
   return (
-    <main className="min-h-screen">
-      <HeroSection />
-      <ValuePropositions />
-      <ProcessSection />
-      <BenefitsSection />
-      <TestimonialsSection />
-      <CTASection />
-      <Footer />
-    </main>
+    <>
+      <Header />
+      <main className="min-h-screen">
+        <HeroSection />
+        <ValuePropositions />
+        <ProcessSection />
+        <BenefitsSection />
+        <TestimonialsSection />
+        <CTASection />
+        <Footer />
+      </main>
+    </>
   )
 }
