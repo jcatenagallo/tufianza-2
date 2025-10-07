@@ -24,7 +24,7 @@ export function Header() {
             onClick={() => scrollToSection("hero")}
             className="text-xl font-bold bg-gradient-to-r from-blue-600 to-blue-500 bg-clip-text text-transparent"
           >
-            Garantía de Alquiler
+            Tu Fianza
           </button>
         </div>
 
